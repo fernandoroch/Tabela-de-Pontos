@@ -1,0 +1,99 @@
+* {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    font-family: "Roboto Mono", monospace;
+    min-height: 91vh;
+    background: linear-gradient(#434343, #000);
+    padding: 0 3rem;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  table {
+    border: 2px solid white;
+    border-collapse: collapse;
+    overflow-y: scroll;
+  }
+  
+  h1 {
+    color: white;
+    margin-top: 4rem;
+  }
+  
+  th,
+  tr,
+  td {
+    border: solid 1px white;
+    color: white;
+    padding: .3rem;
+  }
+
+.comandos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+    border: none;
+    border-radius: .5rem;
+}
+button:hover{
+    background-color: #434343;
+    color: #ffffff;
+}
+
+#tabelaJogadores button {
+    padding: .2rem .6rem;
+}
+.comandos button{
+   padding: .5rem .5rem;
+    margin:  1.5rem 0 ;
+    font-size: .8rem;
+   
+}
+
+.addNovoJogador {
+  margin-right: .5rem;
+}
+.addNovoJogador button{
+    font-size: .8rem;
+
+}
+.addNovoJogador input {
+    padding: .5rem .5rem;
+    border-radius: .5rem;
+    font-size: .8rem;
+    outline: none;
+    border: none;
+}
+  
